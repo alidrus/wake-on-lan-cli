@@ -1,7 +1,6 @@
 {
     "require": {
-        "symfony/console": "^4.2",
-        "symfony/config": "^4.2"
+        "symfony/console": "^4.2"
     },
     "autoload": {
         "psr-4": {
