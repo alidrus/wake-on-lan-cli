@@ -3,10 +3,12 @@
 require_once __DIR__ . '/../vendor/autoload.php';
  
 use Symfony\Component\Console\Application;
-use Console\App\Commands\ConfigCommand;
+use Console\App\Commands\HostsCommand;
+use Console\App\Commands\AddCommand;
 use Console\App\Commands\WakeCommand;
  
 $app = new Application();
-$app->add(new ConfigCommand());
+$app->add(new HostsCommand());
+$app->add(new AddCommand());
 $app->add(new WakeCommand());
 $app->run();
