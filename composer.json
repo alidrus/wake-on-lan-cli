@@ -1,6 +1,7 @@
 {
     "require": {
-        "symfony/console": "^4.2"
+        "symfony/console": "^4.2",
+        "hassankhan/config": "^2.0"
     },
     "autoload": {
         "psr-4": {
