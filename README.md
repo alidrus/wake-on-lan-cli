@@ -7,6 +7,12 @@ In order to build a **phar** executable archive using the `Makefile` provided, y
 * PHP CLI (tested version of PHP was 7.1.23)
 * GNU Make
 * [Box 2](https://box-project.github.io/box2/)
+* [Composer](https://getcomposer.org/)
+
+In order to install all the vendor dependencies needed to run:
+```bash
+composer install
+```
 
 ## Compile
 
